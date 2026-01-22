@@ -1,0 +1,60 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 30px;
+  width: 420px;
+  border-radius: 16px;
+}
+
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+.modal input,
+.modal textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.modal textarea {
+  resize: none;
+  height: 90px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel {
+  background: #eee;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+
+.save {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+}
